@@ -48,7 +48,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
             <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Ginecologia com{" "}
-              <span style={{ color: "#827ECC" }}>
+              <span style={{ color: "#DFC7BE" }}>
                 técnica, cuidado e verdade
               </span>
             </h2>
@@ -69,7 +69,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => goTo("contact")}
                 className="group px-8 py-4 text-white rounded-full font-medium flex items-center justify-center gap-2 hover:shadow-xl transition-all cursor-pointer"
-                style={{ background: "#827ECC" }}
+                style={{ background: "#DFC7BE", color: "#755751" }}
                 data-testid="button-agendar-hero"
               >
                 <Calendar size={20} />
@@ -112,7 +112,6 @@ export default function Hero({ scrollToSection }: HeroProps) {
         </div>
       </div>
 
-      <div className="absolute inset-0 z-[1] bg-pattern-texture pointer-events-none" />
       <div
         className="absolute bottom-0 left-0 right-0 h-32 z-10"
         style={{ background: "linear-gradient(to top, #FFFFFF, transparent)" }}
