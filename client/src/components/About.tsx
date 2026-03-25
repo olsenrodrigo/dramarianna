@@ -21,15 +21,15 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "#F5EDF0" }}>
-              <span className="text-sm font-medium" style={{ color: "#C4919D" }}>Sobre a Especialista</span>
+            <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "#FCF3EB" }}>
+              <span className="text-sm font-medium" style={{ color: "#827ECC" }}>Sobre a Especialista</span>
             </div>
 
             <h3 className="text-4xl md:text-5xl font-bold mb-2" style={{ color: "#212529" }}>
               Dra. Marianna Siqueira
             </h3>
 
-            <p className="text-lg mb-6 font-medium" style={{ color: "#C4919D" }}>
+            <p className="text-lg mb-6 font-medium" style={{ color: "#827ECC" }}>
               Medicina com propósito, técnica e humanidade
             </p>
 
@@ -62,10 +62,10 @@ export default function About() {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.06 }}
                   className="flex items-center gap-3 rounded-xl p-3 border"
-                  style={{ borderColor: "rgba(196, 145, 157, 0.15)", backgroundColor: "rgba(245, 237, 240, 0.4)" }}
+                  style={{ borderColor: "rgba(130, 126, 204, 0.15)", backgroundColor: "rgba(252, 243, 235, 0.4)" }}
                 >
-                  <div className="flex-shrink-0 w-9 h-9 rounded-lg flex items-center justify-center" style={{ backgroundColor: "#F5EDF0" }}>
-                    <item.icon className="w-4 h-4" style={{ color: "#C4919D" }} />
+                  <div className="flex-shrink-0 w-9 h-9 rounded-lg flex items-center justify-center" style={{ backgroundColor: "#FCF3EB" }}>
+                    <item.icon className="w-4 h-4" style={{ color: "#827ECC" }} />
                   </div>
                   <span className="text-sm font-medium" style={{ color: "#212529" }}>{item.text}</span>
                 </motion.div>
@@ -84,7 +84,7 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl max-w-sm">
               <div
                 className="w-full h-[550px] flex items-center justify-center"
-                style={{ background: "linear-gradient(135deg, #F5EDF0 0%, #C4919D 100%)" }}
+                style={{ background: "linear-gradient(135deg, #FCF3EB 0%, #827ECC 100%)" }}
               >
                 <div className="text-center text-white p-8">
                   <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-white/20 flex items-center justify-center">
@@ -97,10 +97,10 @@ export default function About() {
                   <p className="text-sm opacity-60 mt-2">Substituir por foto profissional</p>
                 </div>
               </div>
-              <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(196, 145, 157, 0.2), transparent)" }} />
+              <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(130, 126, 204, 0.2), transparent)" }} />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-56 h-56 rounded-3xl -z-10" style={{ backgroundColor: "rgba(196, 145, 157, 0.1)" }} />
-            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full -z-10" style={{ backgroundColor: "rgba(196, 145, 157, 0.1)" }} />
+            <div className="absolute -bottom-6 -right-6 w-56 h-56 rounded-3xl -z-10" style={{ backgroundColor: "rgba(130, 126, 204, 0.1)" }} />
+            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full -z-10" style={{ backgroundColor: "rgba(130, 126, 204, 0.1)" }} />
           </motion.div>
         </div>
 
@@ -110,7 +110,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 pt-16 border-t"
-          style={{ borderColor: "rgba(196, 145, 157, 0.2)" }}
+          style={{ borderColor: "rgba(130, 126, 204, 0.2)" }}
         >
           {[
             { value: "15 anos", label: "de experiência em ginecologia e obstetrícia" },
@@ -118,7 +118,7 @@ export default function About() {
             { value: "Formação USP", label: "Uma das principais universidades médicas do país" },
           ].map((item, index) => (
             <div key={index} className="text-center">
-              <div className="text-2xl md:text-3xl font-bold mb-2" style={{ color: "#4A2D3A" }}>{item.value}</div>
+              <div className="text-2xl md:text-3xl font-bold mb-2" style={{ color: "#755751" }}>{item.value}</div>
               <div className="text-base" style={{ color: "#3C3C3C" }}>{item.label}</div>
             </div>
           ))}
@@ -131,7 +131,7 @@ export default function About() {
           viewport={{ once: true }}
           className="mt-20 text-center"
         >
-          <blockquote className="text-3xl md:text-4xl font-bold italic max-w-3xl mx-auto mb-8" style={{ color: "#4A2D3A" }}>
+          <blockquote className="text-3xl md:text-4xl font-bold italic max-w-3xl mx-auto mb-8" style={{ color: "#755751" }}>
             "Cada mulher é única e merece um cuidado que respeite isso."
           </blockquote>
           <motion.button
@@ -139,7 +139,7 @@ export default function About() {
             whileTap={{ scale: 0.95 }}
             onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             className="px-8 py-4 text-white rounded-full font-medium hover:shadow-xl transition-all cursor-pointer"
-            style={{ background: "#C4919D" }}
+            style={{ background: "#827ECC" }}
           >
             Agendar minha consulta
           </motion.button>

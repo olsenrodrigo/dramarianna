@@ -9,23 +9,23 @@
   --radius-lg: 0.75rem;
   --radius-xl: 1rem;
 
-  /* Feminine / Gynecology Color Palette */
+  /* Branding Color Palette — Dra. Marianna Assumpção */
 
-  /* Primary: #C4919D - Dusty Rose */
-  --color-primary: #C4919D;
+  /* Primary: #827ECC - Lavender/Periwinkle */
+  --color-primary: #827ECC;
   --color-primary-foreground: #FFFFFF;
 
-  /* Secondary/Contrast: #4A2D3A - Deep Wine */
-  --color-secondary: #4A2D3A;
+  /* Secondary/Contrast: #755751 - Warm Brown */
+  --color-secondary: #755751;
   --color-secondary-foreground: #FFFFFF;
 
-  /* Alternating Backgrounds: #F5EDF0 - Soft Blush */
-  --color-muted: #F5EDF0;
+  /* Alternating Backgrounds: #FCF3EB - Warm Cream */
+  --color-muted: #FCF3EB;
   --color-muted-foreground: #3C3C3C;
 
-  /* Dark Gray: #4C4C4C - Footer/Overlays */
-  --color-accent: #4C4C4C;
-  --color-accent-foreground: #FFFFFF;
+  /* Accent: #DFC7BE - Blush Rose */
+  --color-accent: #DFC7BE;
+  --color-accent-foreground: #755751;
 
   /* Neutrals & Text */
   --color-background: #FFFFFF;
@@ -38,15 +38,15 @@
   --color-popover-foreground: #212529;
 
   /* Borders */
-  --color-border: #EFEFEF; /* Neutral Gray */
-  --color-input: #EFEFEF;
-  --color-ring: #C4919D;
+  --color-border: #EDE0D5; /* Warm Neutral */
+  --color-input: #EDE0D5;
+  --color-ring: #827ECC;
 
   /* Semantic */
   --color-destructive: 0 84% 60%;
   --color-destructive-foreground: 0 0% 100%;
 
-  /* Typography - Single font across the entire site */
+  /* Typography */
   --font-sans: 'Montserrat', sans-serif;
   --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Montserrat', sans-serif;
@@ -77,6 +77,12 @@
   .glass-nav {
     @apply bg-white/90 backdrop-blur-md border-b border-white/20 shadow-sm supports-[backdrop-filter]:bg-white/80;
   }
+  .bg-pattern-texture {
+    background-image: url('/images/pattern-texture.png');
+    background-size: 400px;
+    background-repeat: repeat;
+    opacity: 0.15;
+  }
   .section-padding {
     @apply py-16 md:py-24;
   }
@@ -85,13 +91,13 @@
   }
 
   /* Custom background utilities based on the palette */
-  .bg-alt-rose {
-    background-color: #F5EDF0;
+  .bg-alt-cream {
+    background-color: #FCF3EB;
   }
-  .bg-neutral-gray {
-    background-color: #EFEFEF;
+  .bg-neutral-warm {
+    background-color: #EDE0D5;
   }
-  .text-deep-wine {
-    color: #4A2D3A;
+  .text-brand-brown {
+    color: #755751;
   }
 }

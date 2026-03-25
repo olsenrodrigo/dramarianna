@@ -26,8 +26,8 @@ export default function Locations() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "rgba(196, 145, 157, 0.15)" }}>
-            <span className="text-sm font-medium" style={{ color: "#4A2D3A" }}>Consultório</span>
+          <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "rgba(130, 126, 204, 0.15)" }}>
+            <span className="text-sm font-medium" style={{ color: "#755751" }}>Consultório</span>
           </div>
 
           <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
@@ -55,10 +55,10 @@ export default function Locations() {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
                   className="flex items-start gap-4 bg-white rounded-xl p-5 shadow-sm border"
-                  style={{ borderColor: "rgba(196, 145, 157, 0.15)" }}
+                  style={{ borderColor: "rgba(130, 126, 204, 0.15)" }}
                 >
-                  <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: "#F5EDF0" }}>
-                    <feature.icon className="w-5 h-5" style={{ color: "#C4919D" }} />
+                  <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: "#FCF3EB" }}>
+                    <feature.icon className="w-5 h-5" style={{ color: "#827ECC" }} />
                   </div>
                   <span className="font-medium pt-2" style={{ color: "#212529" }}>{feature.text}</span>
                 </motion.div>
@@ -70,10 +70,10 @@ export default function Locations() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="mt-8 p-6 rounded-2xl border"
-              style={{ borderColor: "rgba(196, 145, 157, 0.2)", backgroundColor: "rgba(245, 237, 240, 0.5)" }}
+              style={{ borderColor: "rgba(130, 126, 204, 0.2)", backgroundColor: "rgba(252, 243, 235, 0.5)" }}
             >
               <div className="flex items-start gap-3 mb-4">
-                <MapPin className="w-5 h-5 flex-shrink-0 mt-1" style={{ color: "#C4919D" }} />
+                <MapPin className="w-5 h-5 flex-shrink-0 mt-1" style={{ color: "#827ECC" }} />
                 <div>
                   <p className="font-bold" style={{ color: "#212529" }}>Endereço</p>
                   <p style={{ color: "#3C3C3C" }}>
@@ -92,7 +92,7 @@ export default function Locations() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="rounded-2xl overflow-hidden shadow-lg border"
-            style={{ borderColor: "rgba(196, 145, 157, 0.15)" }}
+            style={{ borderColor: "rgba(130, 126, 204, 0.15)" }}
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8!2d-46.677!3d-23.585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM1JzA2LjAiUyA0NsKwNDAnMzcuMiJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"

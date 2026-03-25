@@ -38,8 +38,8 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "#F5EDF0" }}>
-            <span className="text-sm font-medium" style={{ color: "#C4919D" }}>Conteúdo Educativo</span>
+          <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "#FCF3EB" }}>
+            <span className="text-sm font-medium" style={{ color: "#827ECC" }}>Conteúdo Educativo</span>
           </div>
 
           <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
@@ -61,12 +61,12 @@ export default function HowItWorks() {
               transition={{ delay: index * 0.08 }}
               whileHover={{ y: -4, transition: { duration: 0.2 } }}
               className="bg-white rounded-2xl p-6 shadow-lg border hover:shadow-xl transition-all"
-              style={{ borderColor: "rgba(196, 145, 157, 0.15)" }}
+              style={{ borderColor: "rgba(130, 126, 204, 0.15)" }}
             >
               <div className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                style={{ backgroundColor: "#F5EDF0" }}
+                style={{ backgroundColor: "#FCF3EB" }}
               >
-                <BookOpen className="w-5 h-5" style={{ color: "#C4919D" }} />
+                <BookOpen className="w-5 h-5" style={{ color: "#827ECC" }} />
               </div>
 
               <h4 className="text-lg font-bold mb-3" style={{ color: "#212529" }}>
