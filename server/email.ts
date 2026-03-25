@@ -27,7 +27,7 @@ export async function sendContactEmail(data: ContactData) {
     subject: `Nova consulta – ${data.name}`,
     html: `
       <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;border:1px solid #e5e7eb;border-radius:12px">
-        <h2 style="color:#4A2D3A;margin-bottom:24px">Nova solicitacao de consulta</h2>
+        <h2 style="color:#4A2D3A;margin-bottom:24px">Nova solicitação de consulta</h2>
         <table style="width:100%;border-collapse:collapse">
           <tr>
             <td style="padding:8px 12px;font-weight:bold;color:#494949;vertical-align:top;width:100px">Nome</td>
@@ -47,7 +47,7 @@ export async function sendContactEmail(data: ContactData) {
           </tr>
         </table>
         <hr style="margin:24px 0;border:none;border-top:1px solid #e5e7eb">
-        <p style="font-size:12px;color:#9ca3af">Enviado pelo formulario do site dramariannasiqueira.com.br</p>
+        <p style="font-size:12px;color:#9ca3af">Enviado pelo formulário do site dramariannasiqueira.com.br</p>
       </div>
     `,
   });

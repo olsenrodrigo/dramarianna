@@ -42,25 +42,25 @@ export default function Hero({ scrollToSection }: HeroProps) {
               style={{ backgroundColor: "rgba(196, 145, 157, 0.2)", borderColor: "rgba(196, 145, 157, 0.3)" }}
             >
               <span className="text-sm font-medium" style={{ color: "#F5EDF0" }}>
-                Ginecologista, Obstetra e Cirurgia
+                Ginecologista, Obstetra e Cirurgiã
               </span>
             </div>
 
             <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Ginecologia com{" "}
               <span style={{ color: "#C4919D" }}>
-                tecnica, cuidado e verdade
+                técnica, cuidado e verdade
               </span>
             </h2>
 
             <p className="text-lg mb-4 leading-relaxed" style={{ color: "#F5EDF0" }}>
-              Dra. Marianna Siqueira — Ginecologista, Obstetra e Cirurgia
+              Dra. Marianna Siqueira — Ginecologista, Obstetra e Cirurgiã
             </p>
 
             <p className="text-base mb-8 leading-relaxed" style={{ color: "rgba(245, 237, 240, 0.85)" }}>
-              Especialista em cirurgia laparoscopica, robotica e histeroscopia, com 15 anos de experiencia
-              cuidando da saude da mulher em todas as fases da vida. Atendimento particular, humanizado e
-              baseado em evidencias cientificas.
+              Especialista em cirurgia laparoscópica, robótica e histeroscopia, com 15 anos de experiência
+              cuidando da saúde da mulher em todas as fases da vida. Atendimento particular, humanizado e
+              baseado em evidências científicas.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -86,7 +86,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 data-testid="button-sobre-hero"
               >
                 <User size={20} />
-                Conheca a Dra. Marianna
+                Conheça a Dra. Marianna
               </motion.button>
             </div>
           </motion.div>
@@ -99,9 +99,9 @@ export default function Hero({ scrollToSection }: HeroProps) {
             style={{ borderColor: "rgba(255, 255, 255, 0.1)" }}
           >
             {[
-              { value: "15+", label: "Anos de Experiencia" },
+              { value: "15+", label: "Anos de Experiência" },
               { value: "3", label: "Subespecialidades" },
-              { value: "USP", label: "Formacao Academica" },
+              { value: "USP", label: "Formação Acadêmica" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1">{stat.value}</div>

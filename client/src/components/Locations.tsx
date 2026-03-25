@@ -5,7 +5,7 @@ export default function Locations() {
   const features = [
     {
       icon: Shield,
-      text: "Ambiente acolhedor e discreto no coracao do Itaim Bibi",
+      text: "Ambiente acolhedor e discreto no coração do Itaim Bibi",
     },
     {
       icon: Clock,
@@ -13,7 +13,7 @@ export default function Locations() {
     },
     {
       icon: Users,
-      text: "Equipe de secretarias para suporte em agendamentos e orientacoes",
+      text: "Equipe de secretárias para suporte em agendamentos e orientações",
     },
   ];
 
@@ -27,20 +27,20 @@ export default function Locations() {
           className="text-center mb-16"
         >
           <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "rgba(196, 145, 157, 0.15)" }}>
-            <span className="text-sm font-medium" style={{ color: "#4A2D3A" }}>Consultorio</span>
+            <span className="text-sm font-medium" style={{ color: "#4A2D3A" }}>Consultório</span>
           </div>
 
           <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
-            Consultorio
+            Consultório
           </h3>
 
           <p className="text-xl max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Um espaco pensado para oferecer conforto, privacidade e tranquilidade durante o atendimento.
+            Um espaço pensado para oferecer conforto, privacidade e tranquilidade durante o atendimento.
           </p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          {/* Info do Consultorio */}
+          {/* Info do Consultório */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -75,11 +75,11 @@ export default function Locations() {
               <div className="flex items-start gap-3 mb-4">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-1" style={{ color: "#C4919D" }} />
                 <div>
-                  <p className="font-bold" style={{ color: "#212529" }}>Endereco</p>
+                  <p className="font-bold" style={{ color: "#212529" }}>Endereço</p>
                   <p style={{ color: "#3C3C3C" }}>
                     Rua Joaquim Floriano, 466<br />
                     Conjunto 902 — Itaim Bibi<br />
-                    Sao Paulo/SP
+                    São Paulo/SP
                   </p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ export default function Locations() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localizacao do consultorio"
+              title="Localização do consultório"
             />
           </motion.div>
         </div>

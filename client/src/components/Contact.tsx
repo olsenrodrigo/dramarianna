@@ -43,7 +43,7 @@ export default function Contact() {
           </h3>
 
           <p className="text-xl max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Atendimento particular. Consultorio em Sao Paulo.
+            Atendimento particular. Consultório em São Paulo.
           </p>
         </motion.div>
 
@@ -61,11 +61,11 @@ export default function Contact() {
                   <MapPin className="w-5 h-5" style={{ color: "#C4919D" }} />
                 </div>
                 <div>
-                  <p className="font-bold mb-1" style={{ color: "#212529" }}>Endereco</p>
+                  <p className="font-bold mb-1" style={{ color: "#212529" }}>Endereço</p>
                   <p className="text-sm" style={{ color: "#3C3C3C" }}>
                     Rua Joaquim Floriano, 466<br />
                     Conjunto 902 — Itaim Bibi<br />
-                    Sao Paulo/SP
+                    São Paulo/SP
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Formulario */}
+          {/* Formulário */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -178,7 +178,7 @@ export default function Contact() {
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-4 py-3 border rounded-xl focus:ring-2 focus:border-transparent transition-all resize-none outline-none"
                       style={{ borderColor: "rgba(196, 145, 157, 0.3)" }}
-                      placeholder="Como podemos ajuda-la?"
+                      placeholder="Como podemos ajudá-la?"
                       data-testid="input-message"
                     />
                   </div>

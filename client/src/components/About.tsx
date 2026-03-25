@@ -3,11 +3,11 @@ import { Award, BookOpen, GraduationCap, Briefcase, IdCard, Heart } from "lucide
 
 export default function About() {
   const credentials = [
-    { icon: Briefcase, text: "15 anos de experiencia em ginecologia e obstetricia" },
-    { icon: Award, text: "Especialista em cirurgia laparoscopica e histeroscopia" },
-    { icon: BookOpen, text: "Certificacao em cirurgia robotica pela Intuitive" },
-    { icon: GraduationCap, text: "Formada pela Universidade de Sao Paulo (USP)" },
-    { icon: Heart, text: "Mae de dois filhos" },
+    { icon: Briefcase, text: "15 anos de experiência em ginecologia e obstetrícia" },
+    { icon: Award, text: "Especialista em cirurgia laparoscópica e histeroscopia" },
+    { icon: BookOpen, text: "Certificação em cirurgia robótica pela Intuitive" },
+    { icon: GraduationCap, text: "Formada pela Universidade de São Paulo (USP)" },
+    { icon: Heart, text: "Mãe de dois filhos" },
     { icon: IdCard, text: "CRM 144411/SP" },
   ];
 
@@ -30,27 +30,27 @@ export default function About() {
             </h3>
 
             <p className="text-lg mb-6 font-medium" style={{ color: "#C4919D" }}>
-              Medicina com proposito, tecnica e humanidade
+              Medicina com propósito, técnica e humanidade
             </p>
 
             <p className="text-lg mb-4 leading-relaxed" style={{ color: "#3C3C3C" }}>
-              A <strong>Dra. Marianna Siqueira de Assumpcao</strong> e ginecologista e obstetra formada pela
-              <strong> Universidade de Sao Paulo (USP)</strong>, com residencia medica na especialidade e
-              subespecializacao em <strong>cirurgia laparoscopica e histeroscopia</strong>. Possui tambem
-              certificacao em <strong>cirurgia robotica pela Intuitive</strong>.
+              A <strong>Dra. Marianna Siqueira de Assumpção</strong> é ginecologista e obstetra formada pela
+              <strong> Universidade de São Paulo (USP)</strong>, com residência médica na especialidade e
+              subespecialização em <strong>cirurgia laparoscópica e histeroscopia</strong>. Possui também
+              certificação em <strong>cirurgia robótica pela Intuitive</strong>.
             </p>
 
             <p className="text-lg mb-4 leading-relaxed" style={{ color: "#3C3C3C" }}>
-              Sua trajetoria na medicina comecou ainda na adolescencia, ao acompanhar de perto o tratamento
-              de cancer de mama de sua mae, experiencia que despertou o desejo de cuidar de pessoas em
-              momentos importantes da saude.
+              Sua trajetória na medicina começou ainda na adolescência, ao acompanhar de perto o tratamento
+              de câncer de mama de sua mãe, experiência que despertou o desejo de cuidar de pessoas em
+              momentos importantes da saúde.
             </p>
 
             <p className="text-lg mb-8 leading-relaxed" style={{ color: "#3C3C3C" }}>
-              Com <strong>15 anos de atuacao</strong>, dedica-se ao diagnostico e tratamento de condicoes que
-              impactam a qualidade de vida feminina, como endometriose, miomas e alteracoes hormonais. Mae
-              de dois filhos, acredita em uma medicina baseada em escuta, transparencia e evidencias
-              cientificas, respeitando a individualidade de cada mulher.
+              Com <strong>15 anos de atuação</strong>, dedica-se ao diagnóstico e tratamento de condições que
+              impactam a qualidade de vida feminina, como endometriose, miomas e alterações hormonais. Mãe
+              de dois filhos, acredita em uma medicina baseada em escuta, transparência e evidências
+              científicas, respeitando a individualidade de cada mulher.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-3 mt-8">
@@ -113,9 +113,9 @@ export default function About() {
           style={{ borderColor: "rgba(196, 145, 157, 0.2)" }}
         >
           {[
-            { value: "15 anos", label: "de experiencia em ginecologia e obstetricia" },
-            { value: "3 subespecialidades", label: "Laparoscopia, Histeroscopia e Cirurgia Robotica" },
-            { value: "Formacao USP", label: "Uma das principais universidades medicas do pais" },
+            { value: "15 anos", label: "de experiência em ginecologia e obstetrícia" },
+            { value: "3 subespecialidades", label: "Laparoscopia, Histeroscopia e Cirurgia Robótica" },
+            { value: "Formação USP", label: "Uma das principais universidades médicas do país" },
           ].map((item, index) => (
             <div key={index} className="text-center">
               <div className="text-2xl md:text-3xl font-bold mb-2" style={{ color: "#4A2D3A" }}>{item.value}</div>
@@ -132,7 +132,7 @@ export default function About() {
           className="mt-20 text-center"
         >
           <blockquote className="text-3xl md:text-4xl font-bold italic max-w-3xl mx-auto mb-8" style={{ color: "#4A2D3A" }}>
-            "Cada mulher e unica e merece um cuidado que respeite isso."
+            "Cada mulher é única e merece um cuidado que respeite isso."
           </blockquote>
           <motion.button
             whileHover={{ scale: 1.05 }}

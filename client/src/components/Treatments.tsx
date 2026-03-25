@@ -3,12 +3,12 @@ import { Scissors, Activity, AlertCircle, Monitor, Microscope, Baby } from "luci
 
 export default function Treatments() {
   const surgeries = [
-    { icon: Microscope, text: "Cirurgia laparoscopica (endometriose, cistos e miomas)" },
-    { icon: Activity, text: "Histeroscopia diagnostica e cirurgica" },
-    { icon: Monitor, text: "Cirurgia robotica (certificacao Intuitive)" },
-    { icon: Scissors, text: "Histerectomia (retirada do utero)" },
+    { icon: Microscope, text: "Cirurgia laparoscópica (endometriose, cistos e miomas)" },
+    { icon: Activity, text: "Histeroscopia diagnóstica e cirúrgica" },
+    { icon: Monitor, text: "Cirurgia robótica (certificação Intuitive)" },
+    { icon: Scissors, text: "Histerectomia (retirada do útero)" },
     { icon: Scissors, text: "Miomectomia" },
-    { icon: Baby, text: "Parto normal e cesarea" },
+    { icon: Baby, text: "Parto normal e cesárea" },
   ];
 
   return (
@@ -25,16 +25,16 @@ export default function Treatments() {
           </div>
 
           <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
-            Cirurgia Ginecologica Avancada
+            Cirurgia Ginecológica Avançada
           </h3>
 
           <p className="text-lg max-w-3xl mx-auto mb-2" style={{ color: "#C4919D" }}>
-            <strong>Especializacao em laparoscopia, histeroscopia e cirurgia robotica</strong>
+            <strong>Especialização em laparoscopia, histeroscopia e cirurgia robótica</strong>
           </p>
 
           <p className="text-lg max-w-4xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Procedimentos realizados com tecnicas minimamente invasivas, que permitem mais precisao,
-            menor trauma cirurgico e recuperacao mais rapida.
+            Procedimentos realizados com técnicas minimamente invasivas, que permitem mais precisão,
+            menor trauma cirúrgico e recuperação mais rápida.
           </p>
         </motion.div>
 
@@ -67,8 +67,8 @@ export default function Treatments() {
         >
           <AlertCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#C4919D" }} />
           <p className="text-base" style={{ color: "#3C3C3C" }}>
-            A indicacao cirurgica e feita apenas quando necessaria, sempre com decisao compartilhada
-            e orientacao clara a paciente.
+            A indicação cirúrgica é feita apenas quando necessária, sempre com decisão compartilhada
+            e orientação clara à paciente.
           </p>
         </motion.div>
 

@@ -15,17 +15,17 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-base leading-relaxed mb-2" style={{ color: "#F5EDF0" }}>
-              Dra. Marianna Siqueira de Assumpcao — Ginecologista, Obstetra e Cirurgia
+              Dra. Marianna Siqueira de Assumpção — Ginecologista, Obstetra e Cirurgiã
             </p>
             <p className="text-sm leading-relaxed mb-1" style={{ color: "rgba(245, 237, 240, 0.7)" }}>
-              Especialista em cirurgia laparoscopica, histeroscopia e robotica.
+              Especialista em cirurgia laparoscópica, histeroscopia e robótica.
             </p>
             <p className="text-sm leading-relaxed" style={{ color: "rgba(245, 237, 240, 0.7)" }}>
               CRM 144411/SP
             </p>
             <p className="text-sm leading-relaxed mt-3" style={{ color: "rgba(245, 237, 240, 0.7)" }}>
               Rua Joaquim Floriano, 466 — Conj. 902<br />
-              Itaim Bibi — Sao Paulo/SP
+              Itaim Bibi — São Paulo/SP
             </p>
             <div className="grid grid-cols-2 gap-3 mt-4">
               {/* TODO: Substituir links quando confirmados */}
@@ -66,15 +66,15 @@ export default function Footer() {
           </div>
 
           <div>
-            <h5 className="font-semibold text-lg mb-4 text-white">Links Rapidos</h5>
+            <h5 className="font-semibold text-lg mb-4 text-white">Links Rápidos</h5>
             <ul className="space-y-3 text-base" style={{ color: "#F5EDF0" }}>
-              <li><a href="#hero" className="hover:text-white transition-colors">Inicio</a></li>
+              <li><a href="#hero" className="hover:text-white transition-colors">Início</a></li>
               <li><a href="#about" className="hover:text-white transition-colors">Sobre</a></li>
               <li><a href="#services" className="hover:text-white transition-colors">Especialidades</a></li>
               <li><a href="#treatments" className="hover:text-white transition-colors">Cirurgias</a></li>
               <li><a href="#differentials" className="hover:text-white transition-colors">Diferenciais</a></li>
-              <li><a href="#locations" className="hover:text-white transition-colors">Consultorio</a></li>
-              <li><a href="#how-it-works" className="hover:text-white transition-colors">Conteudo</a></li>
+              <li><a href="#locations" className="hover:text-white transition-colors">Consultório</a></li>
+              <li><a href="#how-it-works" className="hover:text-white transition-colors">Conteúdo</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Contato</a></li>
             </ul>
           </div>

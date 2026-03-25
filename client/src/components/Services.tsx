@@ -3,15 +3,15 @@ import { CheckCircle2, Heart, Stethoscope } from "lucide-react";
 
 export default function Services() {
   const gynecologyServices = [
-    "Anticoncepcao (DIU, Implanon e implante hormonal)",
-    "Reposicao hormonal",
-    "Endometriose e dor pelvica",
-    "Falta de libido e cansaco hormonal",
-    "Colicas e sangramentos menstruais",
-    "Laser ginecologico",
+    "Anticoncepção (DIU, Implanon e implante hormonal)",
+    "Reposição hormonal",
+    "Endometriose e dor pélvica",
+    "Falta de libido e cansaço hormonal",
+    "Cólicas e sangramentos menstruais",
+    "Laser ginecológico",
     "Preenchimento genital",
-    "Cauterizacao de lesoes",
-    "Pre-natal e acompanhamento obstetrico",
+    "Cauterização de lesões",
+    "Pré-natal e acompanhamento obstétrico",
   ];
 
   return (
@@ -32,11 +32,11 @@ export default function Services() {
           </h3>
 
           <p className="text-xl max-w-4xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Cuidado completo para a saude da mulher, do consultorio a sala cirurgica.
+            Cuidado completo para a saúde da mulher, do consultório à sala cirúrgica.
           </p>
         </motion.div>
 
-        {/* Ginecologia & Saude da Mulher */}
+        {/* Ginecologia & Saúde da Mulher */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -48,13 +48,13 @@ export default function Services() {
               <Heart className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h4 className="text-2xl font-bold" style={{ color: "#212529" }}>Ginecologia & Saude da Mulher</h4>
+              <h4 className="text-2xl font-bold" style={{ color: "#212529" }}>Ginecologia & Saúde da Mulher</h4>
             </div>
           </div>
 
           <p className="text-lg max-w-4xl mb-8" style={{ color: "#3C3C3C" }}>
-            Atendimento clinico completo com foco em diagnostico preciso, prevencao e qualidade de vida.
-            Da fase reprodutiva a menopausa, cada etapa da vida feminina merece atencao individualizada.
+            Atendimento clínico completo com foco em diagnóstico preciso, prevenção e qualidade de vida.
+            Da fase reprodutiva à menopausa, cada etapa da vida feminina merece atenção individualizada.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl">
@@ -84,11 +84,11 @@ export default function Services() {
           style={{ background: "linear-gradient(135deg, #C4919D 0%, #4A2D3A 100%)" }}
         >
           <h4 className="text-3xl font-bold mb-4 text-white">
-            Sua saude nao pode esperar
+            Sua saúde não pode esperar
           </h4>
           <p className="text-xl mb-8 max-w-2xl mx-auto" style={{ color: "#F5EDF0" }}>
-            Atendimento particular em Sao Paulo com consultas de aproximadamente 1 hora, dedicadas a entender
-            profundamente o historico, realizar avaliacao clinica completa e orientar cada paciente com clareza.
+            Atendimento particular em São Paulo com consultas de aproximadamente 1 hora, dedicadas a entender
+            profundamente o histórico, realizar avaliação clínica completa e orientar cada paciente com clareza.
           </p>
           <button
             className="px-8 py-4 bg-white rounded-full font-semibold hover:bg-opacity-90 transition-colors cursor-pointer"

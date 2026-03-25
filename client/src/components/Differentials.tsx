@@ -5,18 +5,18 @@ export default function Differentials() {
   const differentials = [
     {
       icon: GraduationCap,
-      title: "Formacao de excelencia",
-      description: "Graduada pela USP, com residencia medica em ginecologia e obstetricia, subespecializacao em laparoscopia e histeroscopia e certificacao internacional em cirurgia robotica pela Intuitive. 15 anos de experiencia clinica e cirurgica.",
+      title: "Formação de excelência",
+      description: "Graduada pela USP, com residência médica em ginecologia e obstetrícia, subespecialização em laparoscopia e histeroscopia e certificação internacional em cirurgia robótica pela Intuitive. 15 anos de experiência clínica e cirúrgica.",
     },
     {
       icon: Eye,
-      title: "Transparencia e verdade",
-      description: "A consulta e baseada em informacao clara sobre o quadro clinico e todas as possibilidades de tratamento. Sem promessas irreais. Apenas o que a ciencia comprova e o que faz sentido para cada paciente.",
+      title: "Transparência e verdade",
+      description: "A consulta é baseada em informação clara sobre o quadro clínico e todas as possibilidades de tratamento. Sem promessas irreais. Apenas o que a ciência comprova e o que faz sentido para cada paciente.",
     },
     {
       icon: Heart,
-      title: "Visao integral da saude feminina",
-      description: "Saude hormonal, bem-estar, qualidade de vida e longevidade fazem parte da mesma conversa. A mulher e vista de forma completa — nao apenas pela queixa do momento.",
+      title: "Visão integral da saúde feminina",
+      description: "Saúde hormonal, bem-estar, qualidade de vida e longevidade fazem parte da mesma conversa. A mulher é vista de forma completa — não apenas pela queixa do momento.",
     },
   ];
 
@@ -39,7 +39,7 @@ export default function Differentials() {
             </h3>
 
             <p className="text-xl" style={{ color: "#3C3C3C" }}>
-              Tecnica cirurgica de alto nivel com o acolhimento que toda mulher merece.
+              Técnica cirúrgica de alto nível com o acolhimento que toda mulher merece.
             </p>
           </motion.div>
 

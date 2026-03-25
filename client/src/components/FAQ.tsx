@@ -4,19 +4,19 @@ import { Star, Quote } from "lucide-react";
 export default function FAQ() {
   const testimonials = [
     {
-      text: "A Dra. Marianna me acolheu em um momento delicado da minha vida. Explica tudo com clareza e nunca me senti apressada. Encontrei uma medica de verdade.",
+      text: "A Dra. Marianna me acolheu em um momento delicado da minha vida. Explica tudo com clareza e nunca me senti apressada. Encontrei uma médica de verdade.",
       name: "Paciente",
       detail: "Tratamento de endometriose",
     },
     {
-      text: "Fui para uma consulta de rotina e sai com um plano de saude completo. A atencao aos detalhes e a forma como ela ouve fazem toda a diferenca.",
+      text: "Fui para uma consulta de rotina e saí com um plano de saúde completo. A atenção aos detalhes e a forma como ela ouve fazem toda a diferença.",
       name: "Paciente",
-      detail: "Acompanhamento ginecologico",
+      detail: "Acompanhamento ginecológico",
     },
     {
-      text: "Operei com a Dra. Marianna e a recuperacao foi incrivel. Ela usa tecnicas modernas e o resultado foi muito melhor do que eu esperava.",
+      text: "Operei com a Dra. Marianna e a recuperação foi incrível. Ela usa técnicas modernas e o resultado foi muito melhor do que eu esperava.",
       name: "Paciente",
-      detail: "Cirurgia laparoscopica",
+      detail: "Cirurgia laparoscópica",
     },
   ];
 
@@ -38,7 +38,7 @@ export default function FAQ() {
           </h3>
 
           <p className="text-lg max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Historias reais de mulheres que confiaram seu cuidado a Dra. Marianna.
+            Histórias reais de mulheres que confiaram seu cuidado à Dra. Marianna.
           </p>
         </motion.div>
 
@@ -82,15 +82,15 @@ export default function FAQ() {
           style={{ background: "linear-gradient(135deg, #C4919D 0%, #4A2D3A 100%)" }}
         >
           <h4 className="text-2xl md:text-3xl font-bold mb-4 text-white">
-            Pronta para cuidar de voce com a atencao que voce merece?
+            Pronta para cuidar de você com a atenção que você merece?
           </h4>
           <div className="flex flex-wrap justify-center gap-4 mb-8 text-lg" style={{ color: "#F5EDF0" }}>
             <span>Atendimento particular</span>
             <span>|</span>
-            <span>Localizacao privilegiada no Itaim Bibi</span>
+            <span>Localização privilegiada no Itaim Bibi</span>
           </div>
           <p className="text-base mb-8" style={{ color: "rgba(245, 237, 240, 0.8)" }}>
-            Rua Joaquim Floriano, 466 — Sao Paulo
+            Rua Joaquim Floriano, 466 — São Paulo
           </p>
           <button
             className="px-8 py-4 bg-white rounded-full font-semibold hover:bg-opacity-90 transition-colors cursor-pointer"
