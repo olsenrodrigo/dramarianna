@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  /* Feminine / Gynecology Color Palette */
+
+  /* Primary: #C4919D - Dusty Rose */
+  --color-primary: #C4919D;
+  --color-primary-foreground: #FFFFFF;
+
+  /* Secondary/Contrast: #4A2D3A - Deep Wine */
+  --color-secondary: #4A2D3A;
+  --color-secondary-foreground: #FFFFFF;
+
+  /* Alternating Backgrounds: #F5EDF0 - Soft Blush */
+  --color-muted: #F5EDF0;
+  --color-muted-foreground: #3C3C3C;
+
+  /* Dark Gray: #4C4C4C - Footer/Overlays */
+  --color-accent: #4C4C4C;
+  --color-accent-foreground: #FFFFFF;
+
+  /* Neutrals & Text */
+  --color-background: #FFFFFF;
+  --color-foreground: #212529; /* Main Text */
+
+  --color-card: #FFFFFF;
+  --color-card-foreground: #3C3C3C; /* Secondary Text */
+
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #212529;
+
+  /* Borders */
+  --color-border: #EFEFEF; /* Neutral Gray */
+  --color-input: #EFEFEF;
+  --color-ring: #C4919D;
+
+  /* Semantic */
+  --color-destructive: 0 84% 60%;
+  --color-destructive-foreground: 0 0% 100%;
+
+  /* Typography - Single font across the entire site */
+  --font-sans: 'Montserrat', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+
+  /* Spacing & Radius */
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold;
+  }
+  p {
+    @apply font-sans leading-relaxed text-[#3C3C3C];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .glass-nav {
+    @apply bg-white/90 backdrop-blur-md border-b border-white/20 shadow-sm supports-[backdrop-filter]:bg-white/80;
+  }
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 max-w-7xl;
+  }
+
+  /* Custom background utilities based on the palette */
+  .bg-alt-rose {
+    background-color: #F5EDF0;
+  }
+  .bg-neutral-gray {
+    background-color: #EFEFEF;
+  }
+  .text-deep-wine {
+    color: #4A2D3A;
+  }
+}
