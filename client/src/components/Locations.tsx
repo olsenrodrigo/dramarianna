@@ -92,13 +92,11 @@ export default function Locations() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="rounded-2xl overflow-hidden shadow-lg border"
-            style={{ borderColor: "rgba(130, 126, 204, 0.15)" }}
+            style={{ borderColor: "rgba(130, 126, 204, 0.15)", position: "relative", minHeight: "480px" }}
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8!2d-46.677!3d-23.585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM1JzA2LjAiUyA0NsKwNDAnMzcuMiJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
-              width="100%"
-              height="100%"
-              style={{ border: 0, minHeight: "400px" }}
+              style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0, display: "block" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

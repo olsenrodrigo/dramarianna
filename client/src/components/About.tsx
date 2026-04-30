@@ -80,23 +80,12 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="relative flex justify-center"
           >
-            {/* PLACEHOLDER: Substituir por foto da Dra. Marianna */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl max-w-sm">
-              <div
-                className="w-full h-[550px] flex items-center justify-center"
-                style={{ background: "linear-gradient(135deg, #FCF3EB 0%, #827ECC 100%)" }}
-              >
-                <div className="text-center text-white p-8">
-                  <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-white/20 flex items-center justify-center">
-                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                      <circle cx="12" cy="7" r="4" />
-                    </svg>
-                  </div>
-                  <p className="text-lg font-medium opacity-80">Foto da Dra. Marianna</p>
-                  <p className="text-sm opacity-60 mt-2">Substituir por foto profissional</p>
-                </div>
-              </div>
+              <img
+                src="/images/marianaassumpcao.jpeg"
+                alt="Dra. Marianna Siqueira"
+                className="w-full h-[550px] object-cover object-top"
+              />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(130, 126, 204, 0.2), transparent)" }} />
             </div>
             <div className="absolute -bottom-6 -right-6 w-56 h-56 rounded-3xl -z-10" style={{ backgroundColor: "rgba(130, 126, 204, 0.1)" }} />
