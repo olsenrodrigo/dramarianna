@@ -15,6 +15,10 @@ export default function Locations() {
       icon: Users,
       text: "Equipe de secretárias para suporte em agendamentos e orientações",
     },
+    {
+      icon: MapPin,
+      text: "Fácil acesso para quem vem do Itaim, Vila Olímpia, Jardins, Faria Lima, Brooklin, Moema e Pinheiros",
+    },
   ];
 
   return (
@@ -27,15 +31,16 @@ export default function Locations() {
           className="text-center mb-16"
         >
           <div className="inline-block px-4 py-2 rounded-full mb-6" style={{ backgroundColor: "rgba(130, 126, 204, 0.15)" }}>
-            <span className="text-sm font-medium" style={{ color: "#755751" }}>Consultório</span>
+            <span className="text-sm font-medium" style={{ color: "#755751" }}>Consultório no Itaim Bibi</span>
           </div>
 
           <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
-            Consultório
+            Consultório de Ginecologia no Itaim Bibi
           </h3>
 
           <p className="text-xl max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Um espaço pensado para oferecer conforto, privacidade e tranquilidade durante o atendimento.
+            Um espaço pensado para oferecer conforto, privacidade e tranquilidade durante o atendimento,
+            na Rua Joaquim Floriano, em São Paulo.
           </p>
         </motion.div>
 
@@ -76,10 +81,15 @@ export default function Locations() {
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-1" style={{ color: "#827ECC" }} />
                 <div>
                   <p className="font-bold" style={{ color: "#212529" }}>Endereço</p>
-                  <p style={{ color: "#3C3C3C" }}>
+                  <address className="not-italic" style={{ color: "#3C3C3C" }}>
                     Rua Joaquim Floriano, 466<br />
                     Conjunto 902 — Itaim Bibi<br />
                     São Paulo/SP
+                  </address>
+                  <p className="text-sm mt-3 leading-relaxed" style={{ color: "#3C3C3C" }}>
+                    Referência para quem procura uma <strong>ginecologista no Itaim Bibi</strong>: o
+                    consultório fica na Rua Joaquim Floriano, a poucos minutos da Av. Brigadeiro Faria Lima
+                    e da Av. Juscelino Kubitschek, com estacionamentos no entorno.
                   </p>
                 </div>
               </div>
@@ -100,10 +110,28 @@ export default function Locations() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização do consultório"
+              title="Mapa do consultório de ginecologia no Itaim Bibi — Rua Joaquim Floriano, 466, São Paulo"
             />
           </motion.div>
         </div>
+
+        {/* Área de atendimento — SEO local */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="max-w-5xl mx-auto mt-12 text-center"
+        >
+          <h4 className="text-lg font-bold mb-3" style={{ color: "#755751" }}>
+            Ginecologia e obstetrícia no Itaim e região
+          </h4>
+          <p className="text-base leading-relaxed" style={{ color: "#3C3C3C" }}>
+            O consultório atende mulheres do Itaim Bibi e de toda a região de São Paulo — Vila Olímpia,
+            Jardins, Faria Lima, Brooklin, Moema, Pinheiros e Vila Nova Conceição — que procuram uma
+            ginecologista e obstetra para o acompanhamento contínuo da saúde da mulher, da primeira consulta
+            à menopausa, incluindo pré-natal e cirurgias por laparoscopia, histeroscopia e cirurgia robótica.
+          </p>
+        </motion.div>
       </div>
     </section>
   );

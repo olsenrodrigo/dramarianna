@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-base leading-relaxed mb-2" style={{ color: "#FCF3EB" }}>
-              Dra. Marianna Siqueira de Assumpção — Ginecologista, Obstetra e Cirurgiã
+              Dra. Marianna Siqueira de Assumpção — Ginecologista, Obstetra e Cirurgiã em São Paulo
             </p>
             <p className="text-sm leading-relaxed mb-1" style={{ color: "rgba(252, 243, 235, 0.7)" }}>
               Especialista em cirurgia laparoscópica, histeroscopia e robótica.
@@ -24,10 +24,10 @@ export default function Footer() {
             <p className="text-sm leading-relaxed" style={{ color: "rgba(252, 243, 235, 0.7)" }}>
               CRM 144411/SP
             </p>
-            <p className="text-sm leading-relaxed mt-3" style={{ color: "rgba(252, 243, 235, 0.7)" }}>
+            <address className="text-sm leading-relaxed mt-3 not-italic" style={{ color: "rgba(252, 243, 235, 0.7)" }}>
               Rua Joaquim Floriano, 466 — Conj. 902<br />
               Itaim Bibi — São Paulo/SP
-            </p>
+            </address>
             <div className="grid grid-cols-2 gap-3 mt-4">
               {/* TODO: Substituir links quando confirmados */}
               <a
@@ -75,10 +75,21 @@ export default function Footer() {
               <li><a href="#treatments" className="hover:text-white transition-colors">Cirurgias</a></li>
               <li><a href="#differentials" className="hover:text-white transition-colors">Diferenciais</a></li>
               <li><a href="#locations" className="hover:text-white transition-colors">Consultório</a></li>
+              <li><a href="#duvidas" className="hover:text-white transition-colors">Dúvidas Frequentes</a></li>
               <li><a href="#how-it-works" className="hover:text-white transition-colors">Conteúdo</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Contato</a></li>
             </ul>
           </div>
+        </div>
+
+        {/* Área de atendimento — SEO local */}
+        <div className="border-t pt-8 mb-8" style={{ borderColor: "rgba(252, 243, 235, 0.2)" }}>
+          <h5 className="font-semibold text-base mb-3 text-white">Área de atendimento</h5>
+          <p className="text-sm leading-relaxed" style={{ color: "rgba(252, 243, 235, 0.7)" }}>
+            Ginecologia no Itaim · Ginecologista no Itaim Bibi · Obstetra no Itaim · Saúde da mulher no
+            Itaim Bibi · Cuidado da mulher em São Paulo · Ginecologista e obstetra para Vila Olímpia,
+            Jardins, Faria Lima, Brooklin, Moema, Pinheiros e Vila Nova Conceição.
+          </p>
         </div>
 
         <div className="border-t pt-8 text-center" style={{ borderColor: "rgba(252, 243, 235, 0.2)" }}>

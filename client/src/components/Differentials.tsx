@@ -39,7 +39,7 @@ export default function Differentials() {
             </h3>
 
             <p className="text-xl" style={{ color: "#3C3C3C" }}>
-              Técnica cirúrgica de alto nível com o acolhimento que toda mulher merece.
+              Ginecologia com cuidado: técnica cirúrgica de alto nível e o acolhimento que toda mulher merece.
             </p>
           </motion.div>
 

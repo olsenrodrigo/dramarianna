@@ -39,11 +39,11 @@ export default function Contact() {
           </div>
 
           <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
-            Agende sua Consulta
+            Agende sua Consulta de Ginecologia no Itaim
           </h3>
 
           <p className="text-xl max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Atendimento particular. Consultório em São Paulo.
+            Atendimento particular com ginecologista e obstetra no Itaim Bibi, São Paulo.
           </p>
         </motion.div>
 
@@ -62,11 +62,11 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold mb-1" style={{ color: "#212529" }}>Endereço</p>
-                  <p className="text-sm" style={{ color: "#3C3C3C" }}>
+                  <address className="text-sm not-italic" style={{ color: "#3C3C3C" }}>
                     Rua Joaquim Floriano, 466<br />
                     Conjunto 902 — Itaim Bibi<br />
                     São Paulo/SP
-                  </p>
+                  </address>
                 </div>
               </div>
             </div>

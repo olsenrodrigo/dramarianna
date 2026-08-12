@@ -30,11 +30,12 @@ export default function About() {
             </h3>
 
             <p className="text-lg mb-6 font-medium" style={{ color: "#827ECC" }}>
-              Medicina com propósito, técnica e humanidade
+              Ginecologista, Obstetra e Cirurgiã em São Paulo — medicina com propósito, técnica e humanidade
             </p>
 
             <p className="text-lg mb-4 leading-relaxed" style={{ color: "#3C3C3C" }}>
-              A <strong>Dra. Marianna Siqueira de Assumpção</strong> é ginecologista e obstetra formada pela
+              A <strong>Dra. Marianna Siqueira de Assumpção</strong> é <strong>ginecologista e obstetra
+              no Itaim Bibi, São Paulo</strong>, formada pela
               <strong> Universidade de São Paulo (USP)</strong>, com residência médica na especialidade e
               subespecialização em <strong>cirurgia laparoscópica e histeroscopia</strong>. Possui também
               certificação em <strong>cirurgia robótica pela Intuitive</strong>.
@@ -50,7 +51,8 @@ export default function About() {
               Com <strong>15 anos de atuação</strong>, dedica-se ao diagnóstico e tratamento de condições que
               impactam a qualidade de vida feminina, como endometriose, miomas e alterações hormonais. Mãe
               de dois filhos, acredita em uma medicina baseada em escuta, transparência e evidências
-              científicas, respeitando a individualidade de cada mulher.
+              científicas, respeitando a individualidade de cada mulher. Atende em consultório próprio no
+              Itaim Bibi, referência em <strong>saúde da mulher no Itaim</strong> e região.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-3 mt-8">

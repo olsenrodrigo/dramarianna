@@ -32,7 +32,7 @@ export default function Services() {
           </h3>
 
           <p className="text-xl max-w-4xl mx-auto" style={{ color: "#3C3C3C" }}>
-            Cuidado completo para a saúde da mulher, do consultório à sala cirúrgica.
+            Cuidado completo para a saúde da mulher no Itaim Bibi, do consultório à sala cirúrgica.
           </p>
         </motion.div>
 
@@ -54,7 +54,8 @@ export default function Services() {
 
           <p className="text-lg max-w-4xl mb-8" style={{ color: "#3C3C3C" }}>
             Atendimento clínico completo com foco em diagnóstico preciso, prevenção e qualidade de vida.
-            Da fase reprodutiva à menopausa, cada etapa da vida feminina merece atenção individualizada.
+            Da fase reprodutiva à menopausa, cada etapa da vida feminina merece atenção individualizada —
+            é isso que define o cuidado da mulher no consultório do Itaim Bibi.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl">

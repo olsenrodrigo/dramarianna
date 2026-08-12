@@ -42,25 +42,25 @@ export default function Hero({ scrollToSection }: HeroProps) {
               style={{ backgroundColor: "rgba(130, 126, 204, 0.2)", borderColor: "rgba(130, 126, 204, 0.3)" }}
             >
               <span className="text-sm font-medium" style={{ color: "#FCF3EB" }}>
-                Ginecologista, Obstetra e Cirurgiã
+                Ginecologista, Obstetra e Cirurgiã em São Paulo
               </span>
             </div>
 
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Ginecologia com{" "}
               <span style={{ color: "#DFC7BE" }}>
                 técnica, cuidado e verdade
               </span>
-            </h2>
+            </h1>
 
             <p className="text-lg mb-4 leading-relaxed" style={{ color: "#FCF3EB" }}>
-              Dra. Marianna Siqueira — Ginecologista, Obstetra e Cirurgiã
+              Dra. Marianna Siqueira — Ginecologista e Obstetra no Itaim Bibi, São Paulo
             </p>
 
             <p className="text-base mb-8 leading-relaxed" style={{ color: "rgba(245, 237, 240, 0.85)" }}>
               Especialista em cirurgia laparoscópica, robótica e histeroscopia, com 15 anos de experiência
-              cuidando da saúde da mulher em todas as fases da vida. Atendimento particular, humanizado e
-              baseado em evidências científicas.
+              dedicados ao cuidado da mulher em todas as fases da vida. Atendimento particular, humanizado e
+              baseado em evidências científicas, no coração do Itaim.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
