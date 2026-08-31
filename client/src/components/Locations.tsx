@@ -34,9 +34,9 @@ export default function Locations() {
             <span className="text-sm font-medium" style={{ color: "#755751" }}>Consultório no Itaim Bibi</span>
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
             Consultório de Ginecologia no Itaim Bibi
-          </h3>
+          </h2>
 
           <p className="text-xl max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
             Um espaço pensado para oferecer conforto, privacidade e tranquilidade durante o atendimento,
@@ -105,7 +105,11 @@ export default function Locations() {
             style={{ borderColor: "rgba(130, 126, 204, 0.15)", position: "relative", minHeight: "480px" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8!2d-46.677!3d-23.585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM1JzA2LjAiUyA0NsKwNDAnMzcuMiJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              /* O embed anterior era um placeholder (place id 0x0, coordenadas
+                 genéricas) e não apontava para o endereço real. Este busca o
+                 endereço do consultório. Ideal: trocar pelo embed do perfil do
+                 Google Empresas quando ele estiver verificado. */
+              src="https://maps.google.com/maps?q=Rua%20Joaquim%20Floriano%2C%20466%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP&z=17&hl=pt-BR&output=embed"
               style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0, display: "block" }}
               allowFullScreen
               loading="lazy"
@@ -122,9 +126,9 @@ export default function Locations() {
           viewport={{ once: true }}
           className="max-w-5xl mx-auto mt-12 text-center"
         >
-          <h4 className="text-lg font-bold mb-3" style={{ color: "#755751" }}>
+          <h3 className="text-lg font-bold mb-3" style={{ color: "#755751" }}>
             Ginecologia e obstetrícia no Itaim e região
-          </h4>
+          </h3>
           <p className="text-base leading-relaxed" style={{ color: "#3C3C3C" }}>
             O consultório atende mulheres do Itaim Bibi e de toda a região de São Paulo — Vila Olímpia,
             Jardins, Faria Lima, Brooklin, Moema, Pinheiros e Vila Nova Conceição — que procuram uma

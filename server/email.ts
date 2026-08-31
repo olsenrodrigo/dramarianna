@@ -18,7 +18,13 @@ interface ContactData {
 }
 
 export async function sendContactEmail(data: ContactData) {
-  const to = process.env.CONTACT_EMAIL || "contato@dramarianna.com.br";
+  // Sem fallback: o antigo padrão era contato@dramarianna.com.br, domínio de
+  // terceiro. Sem CONTACT_EMAIL configurado, o lead fica só no banco — melhor
+  // do que ser entregue para outra pessoa.
+  const to = process.env.CONTACT_EMAIL;
+  if (!to) {
+    throw new Error("CONTACT_EMAIL não configurado: e-mail de notificação não enviado");
+  }
 
   await transporter.sendMail({
     from: `"Site Dra. Marianna" <${process.env.SMTP_USER}>`,
@@ -47,7 +53,7 @@ export async function sendContactEmail(data: ContactData) {
           </tr>
         </table>
         <hr style="margin:24px 0;border:none;border-top:1px solid #e5e7eb">
-        <p style="font-size:12px;color:#9ca3af">Enviado pelo formulário do site dramariannasiqueira.com.br</p>
+        <p style="font-size:12px;color:#9ca3af">Enviado pelo formulário do site dramariannaassumpcao.com.br</p>
       </div>
     `,
   });

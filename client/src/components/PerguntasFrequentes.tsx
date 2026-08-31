@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "Onde fica o consultório de ginecologia no Itaim?",
     answer:
-      "O consultório da Dra. Marianna Siqueira fica na Rua Joaquim Floriano, 466 — Conjunto 902, Itaim Bibi, São Paulo/SP. A localização é de fácil acesso para quem vem do Itaim Bibi, Vila Olímpia, Jardins, Faria Lima, Brooklin, Moema e Pinheiros.",
+      "O consultório da Dra. Marianna Assumpção fica na Rua Joaquim Floriano, 466 — Conjunto 902, Itaim Bibi, São Paulo/SP. A localização é de fácil acesso para quem vem do Itaim Bibi, Vila Olímpia, Jardins, Faria Lima, Brooklin, Moema e Pinheiros.",
   },
   {
     question: "A Dra. Marianna é ginecologista e obstetra no Itaim Bibi?",
@@ -56,9 +56,9 @@ export default function PerguntasFrequentes() {
             <span className="text-sm font-medium" style={{ color: "#755751" }}>Perguntas Frequentes</span>
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: "#212529" }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: "#212529" }}>
             Dúvidas sobre a consulta no Itaim
-          </h3>
+          </h2>
 
           <p className="text-lg max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
             As perguntas que as pacientes mais fazem antes da primeira consulta de ginecologia no Itaim Bibi.
@@ -94,9 +94,9 @@ export default function PerguntasFrequentes() {
                     <HelpCircle className="w-5 h-5" style={{ color: "#827ECC" }} />
                   </div>
 
-                  <h4 className="flex-1 text-lg font-semibold pt-1" style={{ color: "#212529" }}>
+                  <h3 className="flex-1 text-lg font-semibold pt-1" style={{ color: "#212529" }}>
                     {faq.question}
-                  </h4>
+                  </h3>
 
                   <ChevronDown
                     className="flex-shrink-0 w-5 h-5 mt-2 transition-transform"

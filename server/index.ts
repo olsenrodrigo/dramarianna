@@ -22,6 +22,17 @@ app.use(
 
 app.use(express.urlencoded({ extended: false }));
 
+// www.dominio -> dominio (301). Sem isso o site responde 200 nos dois hosts e
+// o Google trata como duas versões do mesmo conteúdo, diluindo os sinais.
+const CANONICAL_HOST = process.env.CANONICAL_HOST || "dramariannaassumpcao.com.br";
+app.use((req, res, next) => {
+  const host = req.headers.host;
+  if (process.env.NODE_ENV === "production" && host === `www.${CANONICAL_HOST}`) {
+    return res.redirect(301, `https://${CANONICAL_HOST}${req.originalUrl}`);
+  }
+  next();
+});
+
 export function log(message: string, source = "express") {
   const formattedTime = new Date().toLocaleTimeString("en-US", {
     hour: "numeric",

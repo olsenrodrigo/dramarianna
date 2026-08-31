@@ -46,16 +46,20 @@ export default function Hero({ scrollToSection }: HeroProps) {
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Ginecologia com{" "}
-              <span style={{ color: "#DFC7BE" }}>
-                técnica, cuidado e verdade
+            {/* O H1 carrega a assinatura da marca e a palavra-chave principal
+                (ginecologista/obstetra no Itaim Bibi) no mesmo bloco, sem alterar
+                a hierarquia visual do hero. */}
+            <h1 className="text-white mb-6">
+              <span className="block text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+                Ginecologia com{" "}
+                <span style={{ color: "#DFC7BE" }}>
+                  técnica, cuidado e verdade
+                </span>
+              </span>
+              <span className="block text-lg font-normal mt-4 leading-relaxed" style={{ color: "#FCF3EB" }}>
+                Dra. Marianna Assumpção — Ginecologista e Obstetra no Itaim Bibi, São Paulo
               </span>
             </h1>
-
-            <p className="text-lg mb-4 leading-relaxed" style={{ color: "#FCF3EB" }}>
-              Dra. Marianna Siqueira — Ginecologista e Obstetra no Itaim Bibi, São Paulo
-            </p>
 
             <p className="text-base mb-8 leading-relaxed" style={{ color: "rgba(245, 237, 240, 0.85)" }}>
               Especialista em cirurgia laparoscópica, robótica e histeroscopia, com 15 anos de experiência

@@ -38,9 +38,9 @@ export default function Contact() {
             <span className="text-sm font-medium" style={{ color: "#755751" }}>Entre em Contato</span>
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
             Agende sua Consulta de Ginecologia no Itaim
-          </h3>
+          </h2>
 
           <p className="text-xl max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
             Atendimento particular com ginecologista e obstetra no Itaim Bibi, São Paulo.
@@ -112,7 +112,7 @@ export default function Contact() {
               {status === "success" ? (
                 <div className="flex flex-col items-center justify-center py-12 text-center">
                   <CheckCircle2 className="w-16 h-16 text-green-500 mb-4" />
-                  <h4 className="text-xl font-bold mb-2" style={{ color: "#755751" }}>Mensagem Enviada!</h4>
+                  <h3 className="text-xl font-bold mb-2" style={{ color: "#755751" }}>Mensagem Enviada!</h3>
                   <p className="mb-6" style={{ color: "#3C3C3C" }}>Entraremos em contato em breve.</p>
                   <button
                     onClick={() => setStatus("idle")}

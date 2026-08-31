@@ -34,9 +34,9 @@ export default function Differentials() {
               <span className="text-sm font-medium" style={{ color: "#755751" }}>Por que escolher</span>
             </div>
 
-            <h3 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: "#212529" }}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: "#212529" }}>
               Por que escolher a Dra. Marianna?
-            </h3>
+            </h2>
 
             <p className="text-xl" style={{ color: "#3C3C3C" }}>
               Ginecologia com cuidado: técnica cirúrgica de alto nível e o acolhimento que toda mulher merece.
@@ -60,9 +60,9 @@ export default function Differentials() {
                   <item.icon className="w-8 h-8 text-white" />
                 </div>
 
-                <h4 className="text-xl font-bold mb-4" style={{ color: "#212529" }}>
+                <h3 className="text-xl font-bold mb-4" style={{ color: "#212529" }}>
                   {item.title}
-                </h4>
+                </h3>
 
                 <p className="leading-relaxed" style={{ color: "#3C3C3C" }}>
                   {item.description}

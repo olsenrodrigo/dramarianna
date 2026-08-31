@@ -24,9 +24,9 @@ export default function Treatments() {
             <span className="text-sm font-medium" style={{ color: "#827ECC" }}>Cirurgias</span>
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
             Cirurgia Ginecológica Avançada
-          </h3>
+          </h2>
 
           <p className="text-lg max-w-3xl mx-auto mb-2" style={{ color: "#827ECC" }}>
             <strong>Especialização em laparoscopia, histeroscopia e cirurgia robótica</strong>

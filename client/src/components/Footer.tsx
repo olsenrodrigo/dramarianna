@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <img
                 src="/images/logo-horizontal.png"
-                alt="Dra. Marianna Assumpção"
+                alt="Dra. Marianna Assumpção — Ginecologista e Obstetra no Itaim Bibi"
                 className="h-10 w-auto brightness-0 invert"
               />
             </div>
@@ -53,7 +53,7 @@ export default function Footer() {
                 Instagram
               </a>
               <a
-                href="mailto:contato@dramarianna.com.br"
+                href="#contact"
                 className="flex items-center gap-2 text-base transition-colors hover:text-white"
                 style={{ color: "#FCF3EB" }}
               >
@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h5 className="font-semibold text-lg mb-4 text-white">Links Rápidos</h5>
+            <h3 className="font-semibold text-lg mb-4 text-white">Links Rápidos</h3>
             <ul className="space-y-3 text-base" style={{ color: "#FCF3EB" }}>
               <li><a href="#hero" className="hover:text-white transition-colors">Início</a></li>
               <li><a href="#about" className="hover:text-white transition-colors">Sobre</a></li>
@@ -84,7 +84,7 @@ export default function Footer() {
 
         {/* Área de atendimento — SEO local */}
         <div className="border-t pt-8 mb-8" style={{ borderColor: "rgba(252, 243, 235, 0.2)" }}>
-          <h5 className="font-semibold text-base mb-3 text-white">Área de atendimento</h5>
+          <h3 className="font-semibold text-base mb-3 text-white">Área de atendimento</h3>
           <p className="text-sm leading-relaxed" style={{ color: "rgba(252, 243, 235, 0.7)" }}>
             Ginecologia no Itaim · Ginecologista no Itaim Bibi · Obstetra no Itaim · Saúde da mulher no
             Itaim Bibi · Cuidado da mulher em São Paulo · Ginecologista e obstetra para Vila Olímpia,
@@ -93,8 +93,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t pt-8 text-center" style={{ borderColor: "rgba(252, 243, 235, 0.2)" }}>
-          <p className="text-base flex items-center justify-center gap-2" style={{ color: "#FCF3EB" }}>
-            &copy; {currentYear} Dra. Marianna Siqueira. Todos os direitos reservados. Feito com
+          {/* O ano vem do build no HTML pré-renderizado; suprime o aviso de
+              hidratação na virada de ano. */}
+          <p className="text-base flex items-center justify-center gap-2" style={{ color: "#FCF3EB" }} suppressHydrationWarning>
+            &copy; {currentYear} Dra. Marianna Siqueira de Assumpção. Todos os direitos reservados. Feito com
             <Heart size={16} className="fill-current" style={{ color: "#827ECC" }} />
           </p>
         </div>

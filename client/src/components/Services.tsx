@@ -27,9 +27,9 @@ export default function Services() {
             <span className="text-sm font-medium" style={{ color: "#755751" }}>Especialidades</span>
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
             Especialidades e Procedimentos
-          </h3>
+          </h2>
 
           <p className="text-xl max-w-4xl mx-auto" style={{ color: "#3C3C3C" }}>
             Cuidado completo para a saúde da mulher no Itaim Bibi, do consultório à sala cirúrgica.
@@ -48,7 +48,7 @@ export default function Services() {
               <Heart className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h4 className="text-2xl font-bold" style={{ color: "#212529" }}>Ginecologia & Saúde da Mulher</h4>
+              <h3 className="text-2xl font-bold" style={{ color: "#212529" }}>Ginecologia & Saúde da Mulher</h3>
             </div>
           </div>
 
@@ -84,9 +84,9 @@ export default function Services() {
           className="rounded-3xl p-12 text-center text-white"
           style={{ background: "linear-gradient(135deg, #827ECC 0%, #755751 100%)" }}
         >
-          <h4 className="text-3xl font-bold mb-4 text-white">
+          <h3 className="text-3xl font-bold mb-4 text-white">
             Sua saúde não pode esperar
-          </h4>
+          </h3>
           <p className="text-xl mb-8 max-w-2xl mx-auto" style={{ color: "#FCF3EB" }}>
             Atendimento particular em São Paulo com consultas de aproximadamente 1 hora, dedicadas a entender
             profundamente o histórico, realizar avaliação clínica completa e orientar cada paciente com clareza.

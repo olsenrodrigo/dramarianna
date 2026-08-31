@@ -25,9 +25,9 @@ export default function About() {
               <span className="text-sm font-medium" style={{ color: "#827ECC" }}>Sobre a Especialista</span>
             </div>
 
-            <h3 className="text-4xl md:text-5xl font-bold mb-2" style={{ color: "#212529" }}>
-              Dra. Marianna Siqueira
-            </h3>
+            <h2 className="text-4xl md:text-5xl font-bold mb-2" style={{ color: "#212529" }}>
+              Dra. Marianna Assumpção
+            </h2>
 
             <p className="text-lg mb-6 font-medium" style={{ color: "#827ECC" }}>
               Ginecologista, Obstetra e Cirurgiã em São Paulo — medicina com propósito, técnica e humanidade
@@ -85,7 +85,7 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl max-w-sm">
               <img
                 src="/images/marianaassumpcao.jpeg"
-                alt="Dra. Marianna Siqueira"
+                alt="Dra. Marianna Siqueira de Assumpção, ginecologista e obstetra no Itaim Bibi, São Paulo"
                 className="w-full h-[550px] object-cover object-top"
               />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(130, 126, 204, 0.2), transparent)" }} />

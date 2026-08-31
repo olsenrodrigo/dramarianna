@@ -33,9 +33,9 @@ export default function FAQ() {
             <span className="text-sm font-medium" style={{ color: "#755751" }}>Depoimentos</span>
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: "#212529" }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: "#212529" }}>
             O que dizem as pacientes
-          </h3>
+          </h2>
 
           <p className="text-lg max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
             Histórias reais de mulheres que confiaram seu cuidado à Dra. Marianna.
@@ -81,9 +81,9 @@ export default function FAQ() {
           className="mt-20 rounded-3xl p-12 text-center text-white"
           style={{ background: "linear-gradient(135deg, #827ECC 0%, #755751 100%)" }}
         >
-          <h4 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">
             Pronta para cuidar de você com a atenção que você merece?
-          </h4>
+          </h3>
           <div className="flex flex-wrap justify-center gap-4 mb-8 text-lg" style={{ color: "#FCF3EB" }}>
             <span>Atendimento particular</span>
             <span>|</span>

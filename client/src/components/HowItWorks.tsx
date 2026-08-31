@@ -42,9 +42,9 @@ export default function HowItWorks() {
             <span className="text-sm font-medium" style={{ color: "#827ECC" }}>Conteúdo Educativo</span>
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#212529" }}>
             O que você precisa saber
-          </h3>
+          </h2>
 
           <p className="text-lg max-w-3xl mx-auto" style={{ color: "#3C3C3C" }}>
             Informação de qualidade para cuidar melhor da sua saúde.
@@ -69,9 +69,9 @@ export default function HowItWorks() {
                 <BookOpen className="w-5 h-5" style={{ color: "#827ECC" }} />
               </div>
 
-              <h4 className="text-lg font-bold mb-3" style={{ color: "#212529" }}>
+              <h3 className="text-lg font-bold mb-3" style={{ color: "#212529" }}>
                 {topic.title}
-              </h4>
+              </h3>
 
               <p className="text-sm leading-relaxed" style={{ color: "#3C3C3C" }}>
                 {topic.description}
