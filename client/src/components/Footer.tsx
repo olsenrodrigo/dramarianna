@@ -1,4 +1,5 @@
 import { Heart } from "lucide-react";
+import { emailLink, whatsappLink } from "@/content/contato";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -29,9 +30,10 @@ export default function Footer() {
               Itaim Bibi — São Paulo/SP
             </address>
             <div className="grid grid-cols-2 gap-3 mt-4">
-              {/* TODO: Substituir links quando confirmados */}
               <a
-                href="#contact"
+                href={whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-base transition-colors hover:text-white"
                 style={{ color: "#FCF3EB" }}
               >
@@ -53,7 +55,7 @@ export default function Footer() {
                 Instagram
               </a>
               <a
-                href="#contact"
+                href={emailLink}
                 className="flex items-center gap-2 text-base transition-colors hover:text-white"
                 style={{ color: "#FCF3EB" }}
               >

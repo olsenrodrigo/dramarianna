@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, CheckCircle2, Loader2, MapPin, Phone, Mail } from "lucide-react";
+import { contato, emailLink, whatsappLink } from "@/content/contato";
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: "", phone: "", email: "", message: "" });
@@ -79,8 +80,20 @@ export default function Contact() {
                 <div>
                   <p className="font-bold mb-1" style={{ color: "#212529" }}>Contato</p>
                   <p className="text-sm" style={{ color: "#3C3C3C" }}>
-                    Telefone: A confirmar<br />
-                    WhatsApp: A confirmar
+                    Telefone:{" "}
+                    <a href={contato.telefoneLink} style={{ color: "#3C3C3C" }}>
+                      {contato.telefone}
+                    </a>
+                    <br />
+                    WhatsApp:{" "}
+                    <a
+                      href={whatsappLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#3C3C3C" }}
+                    >
+                      {contato.whatsapp}
+                    </a>
                   </p>
                 </div>
               </div>
@@ -94,7 +107,9 @@ export default function Contact() {
                 <div>
                   <p className="font-bold mb-1" style={{ color: "#212529" }}>E-mail</p>
                   <p className="text-sm" style={{ color: "#3C3C3C" }}>
-                    A confirmar
+                    <a href={emailLink} style={{ color: "#3C3C3C" }}>
+                      {contato.email}
+                    </a>
                   </p>
                 </div>
               </div>
