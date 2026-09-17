@@ -16,7 +16,7 @@ export const contato = {
   whatsapp: "(11) 97675-0665",
   whatsappNumero: "5511976750665",
 
-  email: "m@dramariannaassumpcao.com",
+  email: "contato@dramariannaassumpcao.com.br",
 
   instagram: "https://www.instagram.com/dramariassumpcao",
 } as const;
